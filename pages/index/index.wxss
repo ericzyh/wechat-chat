@@ -1,0 +1,37 @@
+/**index.wxss**/
+.sendmessage {
+  display: flex;
+  flex-direction:row;
+  border:1px solid #aaaaaa;
+}
+
+.sendmessage input { 
+  width:80%;
+  height:40px;
+ line-height : 40px ;
+ font-size : 14px ;
+ padding-left:10px;
+}
+.sendmessage button {
+ border : 1px solid #ffffff ;
+ width : 20% ;
+ height : 40px ;
+ background : #000000 ;
+ color : #ffffff ;
+ line-height : 40px ;
+ font-size : 14px ;
+}
+.historycon {
+  height: 90%;flex-direction:column;display:flex;
+ border : 1px solid #aaaaaa ;
+ border-top:0px;
+}
+.history{
+  height: 100%;
+  margin-top:15px;
+ margin:10px;
+ font-size:14px;
+ line-height:40px;
+
+
+}

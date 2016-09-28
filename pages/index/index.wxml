@@ -1,0 +1,11 @@
+<view>
+  <view class="sendmessage">
+    <input id="message" bindinput="bindChange"></input>
+    <button bindtap="add">发送</button>
+  </view>
+</view> 
+<view class="historycon" >
+<scroll-view scroll-y="true" class="history">
+  <text>{{text}}</text>
+</scroll-view>
+</view>
