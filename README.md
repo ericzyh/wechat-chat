@@ -28,7 +28,6 @@ demo:
 
 
 ##二、微信小程序客户端
-
 1. git clone https://github.com/ericzyh/wechat-chat.git
 
 2. 使用[微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/devtools.html)导入项目
@@ -47,8 +46,8 @@ A:
 3. 有没有办法在view里通过js动态加入view？    
 A:    
 
-##四、todo
 
+##四、todo
 1. 发送消息后，清空输入框   
 2. 名字可点击，实现1v1通讯
 3. 加入聊天间
