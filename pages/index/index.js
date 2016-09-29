@@ -8,7 +8,7 @@ var app = getApp()
     
 var message = '';
 
-var text = '!!!!!欢迎来到聊天室!!!!!';
+var text = '';
 
 var user = {};
 
@@ -30,15 +30,16 @@ Page({
     var that = this
 
 
-    websocket.connect(function(res) {
-      text = res.data +"\n" + text;
-      that.setData({
-        text:text
-      });
-    })
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
       user = userInfo;
+
+      websocket.connect(user, function(res) {
+        text = res.data +"\n" + text;
+        that.setData({
+          text:text
+        });
+      })
     })
   }
 })
