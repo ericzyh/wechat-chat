@@ -41,7 +41,7 @@ demo:
 A: 
 
 2. text存英文超过屏幕宽度后，会出现横向滚动条?    
-A:     
+A: 和css一样加上样式:```word-break:break-all;```    
 
 3. 有没有办法在view里通过js动态加入view？    
 A:    
