@@ -1,6 +1,6 @@
 <view>
   <view class="sendmessage">
-    <input id="message" bindinput="bindChange"></input>
+    <input id="message" bindinput="bindChange" value="{{msg}}"></input>
     <button bindtap="add">发送</button>
   </view>
 </view> 
