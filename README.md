@@ -6,7 +6,7 @@ demo:
 [http://121.42.51.70:8080](http://121.42.51.70:8080)
 
 
-##一、聊天室服务搭建步骤:   
+## 一、聊天室服务搭建步骤:   
 *如果不想搭建服务器，可以跳过这个步骤，直接使用我的服务*
 
 1. 安装 [golang](https://golang.org/) , 安装1.6以上版本，低版本问题较多。*注:下载golang需要翻墙*
@@ -27,7 +27,7 @@ demo:
    访问:http://ip:8080
 
 
-##二、微信小程序客户端
+## 二、微信小程序客户端
 1. git clone https://github.com/ericzyh/wechat-chat.git
 
 2. 使用[微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/devtools.html)导入项目
@@ -36,7 +36,7 @@ demo:
    wechat-chat/utils/websockets.js 行1
    
    
-##三、小程序开发问题 （Q&A）   
+## 三、小程序开发问题 （Q&A）   
 1. 如何通过js获取到某个组件? （发送消息后，清空输入框）   
 A: 
 
@@ -47,7 +47,7 @@ A: 和css一样加上样式:```word-break:break-all;```
 A:    
 
 
-##四、todo
+## 四、todo
 1. 发送消息后，清空输入框   
 2. 名字可点击，实现1v1通讯
 3. 加入聊天间
